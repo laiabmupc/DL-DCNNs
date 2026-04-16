@@ -269,7 +269,6 @@ def run_convnextv2_fine_tuning():
     data_augmentation=[True, False]
     weight_decay=[0, 1e-4]
     all_configs=list(itertools.product(model_sizes, opt_names, learning_rates, pretrained, drop_path_rates, batch_sizes, data_augmentation, weight_decay))
-    all_configs=all_configs[:16]
     print(f"Total experiments: {len(all_configs)}")
     for i, (model_size, opt, lr, weightspretrained, dropout, bs, da, wd) in enumerate(all_configs):
         print(f"Experiment {i+1}/{len(all_configs)}")
