@@ -1,4 +1,4 @@
-# DL-DCNNs
+# Deep Learning: Deep Convolutional Neural Networks
 
 #### Authors
 Natàlia Muñoz Moruno, Laia Barcenilla Mañá and Núria Cardona Vilar
